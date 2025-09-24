@@ -1,0 +1,190 @@
+
+{
+  "files": [
+    {
+      "path": "file:///home/david/locations.json"
+    }
+  ],
+  "locations": [
+    {
+      "id": "",
+      "name": "",
+      "code": "",
+      "parent": "",
+      "type": "",
+      "description": "",
+      "physicalDetails": {
+        "dimensions": {
+          "height": 100,
+          "width": 100
+        },
+        "capacity": {
+          "maxWeight": "kg",
+          "maxVolume": "0m³"
+        },
+        "storageConditions": {
+          "temperature": "°C",
+          "humidity": "%",
+          "hazardousMaterialStorage": false
+        },
+        "gps_location": {
+          "longitude": 0,
+          "latitude": 0
+        }
+      },
+      "mapPosition": {
+        "x": 440,
+        "y": 220
+      },
+      "background": {
+        "color": "",
+        "dimensions": {
+          "height": 440,
+          "width": 220
+        },
+        "grid": {
+          "on": false,
+          "size": 1
+        }
+      },
+      "imageId": "imageid",
+      "securityLevel": "Standard",
+      "responsiblePerson": "",
+      "handlingInstructions": "",
+      "notes": "",
+      "documents": [""],
+      "isDeleted": false,
+      "createdAt": "2025-09-17T19:28:37.677Z",
+      "updatedAt": "2025-09-17T19:28:37.677Z"
+    },
+    {
+      "id": "epfl/rolex/silent-room/bathroom",
+      "name": "bathroom",
+      "code": "TBD",
+      "parent": "epfl/rolex/silent-room",
+      "type": "other",
+      "description": "Main storage area for electronic components",
+      "physicalDetails": {
+        "dimensions": {
+          "height": 100,
+          "width": 100
+        },
+        "capacity": {
+          "maxWeight": "0kg",
+          "maxVolume": "0m³"
+        },
+        "storageConditions": {
+          "temperature": "20°C",
+          "humidity": "50%",
+          "hazardousMaterialStorage": false
+        },
+        "gps_location": {
+          "longitude": 6.585406884870075,
+          "latitude": 46.536259090909084
+        }
+      },
+      "mapPosition": {
+        "x": 440,
+        "y": 220
+      },
+      "background": {
+        "color": "#fafafa",
+        "dimensions": {
+          "height": 100,
+          "width": 100
+        },
+        "grid": {
+          "on": false,
+          "size": 1
+        }
+      },
+      "imageId": "imageId",
+      "securityLevel": "Standard",
+      "responsiblePerson": "",
+      "handlingInstructions": "",
+      "notes": "",
+      "documents": ["documentIds"],
+      "isDeleted": false,
+      "createdAt": "2025-09-17T19:28:37.677Z",
+      "updatedAt": "2025-09-17T19:28:37.677Z"
+    }
+  ],
+  "fullLocationData": {
+    "parent": {
+      "id": "epfl",
+      "name": "EPFL"
+    },
+    "name": "Study Room_2",
+    "type": "office",
+    "image": null,
+    "description": "Main storage area for electronic components",
+    "physicalDetails": {
+      "dimensions": {
+        "height": 100,
+        "width": 100
+      },
+      "capacity": {
+        "maxWeight": "10000kg",
+        "maxVolume": "500m³"
+      },
+      "storageConditions": {
+        "temperature": "15-25°C",
+        "humidity": "40-60%",
+        "hazardousMaterialStorage": true
+      },
+      "gps_location": {
+        "longitude": 6.585406884870075,
+        "latitude": 46.536259090909084
+      }
+    },
+    "background": {
+      "color": "#fafafa",
+      "dimensions": {
+        "height": 100,
+        "width": 100
+      },
+      "grid": {
+        "on": false,
+        "size": 1
+      }
+    },
+    "securityLevel": "Restricted",
+    "responsiblePerson": "John Doe",
+    "handlingInstructions": "Keep dry, avoid stacking over 5 layers.",
+    "lastInventoryCheck": "2024-03-15",
+    "nextInventoryCheckDue": "2024-06-15",
+    "notes": "Temperature controlled environment for sensitive components",
+    "documents": []
+  },
+  "baseLocationData": {
+    "base": {
+      "parent": "epfl",
+      "name": "Study Room_2",
+      "type": "office"
+    },
+    "full": {
+      "description": "Main storage area for electronic components",
+      "image": null,
+      "dimensions": {
+        "height": 100,
+        "width": 100
+      },
+      "gps_location": {
+        "longitude": 6.585406884870075,
+        "latitude": 46.536259090909084
+      },
+      "background": {
+        "color": "#fafafa",
+        "dimensions": {
+          "height": 100,
+          "width": 100
+        },
+        "grid": {
+          "on": false,
+          "size": 1
+        }
+      },
+      "updatedAt": "2025-09-18T06:13:32.641Z"
+    }
+  }
+}
